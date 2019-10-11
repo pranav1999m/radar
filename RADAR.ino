@@ -26,7 +26,7 @@ void loop()
   for(int i=0;i<=180;i++)
   {
     radarServo.write(i);
-    delay(50);
+    delay(40);
     
     digitalWrite(trigPin, LOW); 
     delayMicroseconds(2);
